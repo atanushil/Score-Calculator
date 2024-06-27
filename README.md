@@ -1,12 +1,12 @@
 # Score Calculator Website
 
-This is a simple web application to calculate scores based on user inputs. The website allows users to input the total number of questions, the number of correct answers, marks for right answers, penalty for wrong answers, and marks deducted per wrong answer. The final score is calculated and displayed based on these inputs.
+This is a simple web application to calculate scores based on user inputs. The website allows users to input the total number of questions, the number of correct answers, marks for right answers, penalty per wrong answer count, and penalty for the number of wrong answers. The final score is calculated (including float numbers) and displayed based on these inputs.
 
 ## Features
 
 - User-friendly interface
 - Mobile responsive design
-- Real-time score calculation
+- Real-time score calculation with floating point precision
 
 ## Technologies Used
 
@@ -38,8 +38,8 @@ To set up and run this project locally, follow these steps:
     - **Total Number of Questions:** Enter the total number of questions in the test.
     - **Number of Correct Answers:** Enter the number of correct answers.
     - **Marks per Correct Answer:** Enter the marks awarded for each correct answer (default is 1).
-    - **Penalty per 4 Wrong Answers:** Enter the penalty deducted for every 4 wrong answers (default is 1).
-    - **Marks Deducted per Wrong Answer:** Enter the marks deducted for each wrong answer (default is 0).
+    - **Penalty per Wrong Answer Count:** Enter the penalty deducted for each wrong answer count (default is 1).
+    - **Penalty for Number of Wrong Answers:** Enter the penalty deducted for the number of wrong answers (default is 0).
 3. Click the "Calculate Score" button to see the final score.
 
 ## Responsive Design
