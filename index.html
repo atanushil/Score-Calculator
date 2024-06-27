@@ -11,19 +11,19 @@
         <h1>Score Calculator</h1>
         <form id="scoreForm">
             <label for="totalQuestions">Total Number of Questions:</label>
-            <input type="number" id="totalQuestions" required>
+            <input type="number" id="totalQuestions" step="1" required>
 
             <label for="correctAnswers">Number of Correct Answers:</label>
-            <input type="number" id="correctAnswers" required>
+            <input type="number" id="correctAnswers" step="1" required>
 
             <label for="rightAnswerMarks">Marks per Correct Answer:</label>
-            <input type="number" id="rightAnswerMarks" value="1" required>
+            <input type="number" id="rightAnswerMarks" step="any" value="1" required>
 
-            <label for="penalty">Penalty per 4 Wrong Answers:</label>
-            <input type="number" id="penalty" value="1" required>
+            <label for="penaltyPerWrong">Penalty per Wrong Answer Count:</label>
+            <input type="number" id="penaltyPerWrong" step="any" value="1" required>
 
-            <label for="wrongAnswerMarks">Marks Deducted per Wrong Answer:</label>
-            <input type="number" id="wrongAnswerMarks" value="0" required>
+            <label for="penaltyForWrong">Penalty for Number of Wrong Answers:</label>
+            <input type="number" id="penaltyForWrong" step="any" value="0" required>
 
             <button type="button" onclick="calculateScore()">Calculate Score</button>
         </form>
