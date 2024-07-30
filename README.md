@@ -20,11 +20,11 @@ To set up and run this project locally, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/score-calculator.git
+        https://github.com/atanushil/Score-Calculator.git
     ```
 2. **Navigate to the project directory:**
     ```bash
-    cd score-calculator
+    cd Score-Calculator
     ```
 3. **Open the `index.html` file in your web browser:**
     ```bash
