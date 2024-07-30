@@ -1,4 +1,4 @@
-# (Score Calculator Website)[https://atanushil.github.io/Score-Calculator/]
+# [Score Calculator Website](https://atanushil.github.io/Score-Calculator/)
 
 This is a simple web application to calculate scores based on user inputs. The website allows users to input the total number of questions, the number of correct answers, marks for right answers, penalty per wrong answer count, and penalty for the number of wrong answers. The final score is calculated (including float numbers) and displayed based on these inputs.
 
